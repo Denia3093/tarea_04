@@ -1,0 +1,137 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+}
+
+#container { 
+  background: transparent url(../images/grass.png) repeat-x bottom;
+}
+
+#main{
+  padding: 20px;
+  background-color: #fff;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+main{
+  margin-top: 10px;
+  overflow: overlay;
+}
+
+h3, h1{
+  color: rgb(117, 204, 88) ;
+  font-family: Yanone Kaffeesatz; 
+
+}
+
+.card{
+  background-color: #f5feff;
+  border-color: #c9e5e9;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+}
+.navbar a{
+  color: #fff;
+  font-size: 20pt;
+}
+
+.navbar a:hover{
+  color: #e5017d;
+}
+
+
+.carousel-inner ul li{
+  list-style: none;
+  text-decoration: underline;
+  color: #53c7fd;
+  font-weight: bold;
+}
+
+#Articulo p{
+  width: 420px;
+}
+
+#pie{
+  text-align: center;
+  background-color: #53c7fd;
+  height: 150px;
+  font-family: Yanone Kaffeesatz; 
+  font-size: 20pt;
+  color: #fff;
+  padding-top: 30px;
+  border-bottom-right-radius: 20px ;
+  border-bottom-left-radius: 20px ;
+
+}
+
+#pie a{
+    color: #fff;
+    padding: 5px;
+    border-left: #fff 2px solid ;
+
+}
+#pie .inicio{
+  border-left: none;
+}
+
+#pie span{
+  text-decoration: underline;
+}
+
+#pie a:hover{
+  color: #e5017d;
+}
+h5{
+  color: chocolate;
+}
+
+/*Tabla*/
+.imgTabla{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+
+}
+
+thead, tfoot{
+  background-color: #e5017d; 
+  color: #fff; 
+  text-align: center;
+}
+
+
+
+#table{ 
+   height: 400px;
+   overflow: scroll;
+
+
+}
+
+tr:nth-child(even){ /*even = par*/
+  background-color: rgb(204, 218, 223); 
+
+}
